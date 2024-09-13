@@ -1,4 +1,4 @@
-<h1>AWS Lab SSH into EC2 Instance</h1>
+<h1>AWS Lab - SSH into EC2 Instance</h1>
 
 <h2>Description</h2>
 In this lab, I will deploy an ec2 (elastic compute) instance and ssh into it. I will create an admin user. I will create a vpc (virtual private cloud) with two subnets, a public and private one. An internet gateway will be attached to the vpc. The public subnet will be linked to a routing table that sends network traffic, not destined for internal resources, out to the internet via the internet gateway. I will create a security group that allows ssh connects to the ec2 instance. When I create the ec2 instance, I will place it in the public subnet and the security group so that I can access it from the internet.
